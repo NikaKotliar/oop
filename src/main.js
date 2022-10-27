@@ -1,5 +1,5 @@
-import {character} from './Character.js'
+import { character, bowman, swordsman, magician, daemon, zombie, undead } from './Character.js'
 
-console.log(character)
+console.log(character, bowman, swordsman, magician, daemon, zombie, undead)
 
-character.send
+
