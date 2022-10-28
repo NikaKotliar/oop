@@ -1,5 +1,5 @@
 import { character, bowman, swordsman, magician, daemon, zombie, undead } from './Character.js'
 
-console.log(character, bowman, swordsman, magician, daemon, zombie, undead)
+undead.damage(200)
 
-
+console.log(undead)
