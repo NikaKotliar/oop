@@ -1,5 +1,5 @@
 
-import {Zombie,zombie} from './Zombie.js'
+import Zombie from '../Zombie.js'
 
 test('creare Zombie', () => {
     const expected = {

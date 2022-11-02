@@ -1,6 +1,6 @@
-import { Character } from "./Character.js"
+import Character from "./Character.js"
 
-class Bowman extends Character {
+export default class Bowman extends Character {
     constructor(name, type, health, level) {
         super(name, type, health, level)
         this.attack = 25
@@ -8,5 +8,3 @@ class Bowman extends Character {
     }
 }
 
-const bowman = new Bowman("Bowman", "Bowman");
-export { bowman, Bowman }

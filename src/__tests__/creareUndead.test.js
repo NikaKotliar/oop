@@ -1,4 +1,4 @@
-import { Undead, undead } from './Undead.js'
+import  Undead  from '../Undead'
 
 test('creare Undead', () => {
     const expected = {

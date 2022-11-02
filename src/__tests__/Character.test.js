@@ -1,6 +1,6 @@
-import {Daemon, daemon} from './Daemon.js'
+import Character from '../Character'
 
-test('creare Daemon', () => {
+test('creare Character', () => {
     const expected = {
         _name: 'Daemon',
         _type: 'Daemon',
@@ -9,6 +9,6 @@ test('creare Daemon', () => {
         health: 100,
         level: 1
     }
-    const received = new Daemon("Daemon", "Daemon");
+    const received = new Character("Daemon", "Daemon");
     expect(received).toEqual(expected);
 });

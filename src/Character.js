@@ -4,7 +4,7 @@ let error = new Error(" Возникла ошибка");
 const types = ["Bowman", "Swordsman", "Magician", "Daemon", "Undead", "Zombie"]
 
 
-class Character {
+export default class Character {
     constructor(name, type) { // Аналог функции конструктора
         this.name = name;
         this.type = type;
@@ -67,6 +67,4 @@ class Character {
     }
 }
 
-const character = new Character("Daemon", "Daemon");
-export { character , Character}
 

@@ -1,4 +1,4 @@
-import {Bowman, bowman} from './Bowman.js'
+import Bowman from '../Bowman'
 
 test('creare Bowman', () => {
     const expected = {

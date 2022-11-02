@@ -1,5 +1,5 @@
 
-import {Magician,magician} from './Magician.js'
+import Magician from '../Magician.js'
 
 test('creare Magician', () => {
     const expected = {

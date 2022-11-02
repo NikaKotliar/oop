@@ -1,4 +1,4 @@
-import {Swordsman,swordsman} from './Snordsman.js'
+import Swordsman from '../Snordsman.js'
 
 test('creare Swordsman', () => {
     const expected = {
